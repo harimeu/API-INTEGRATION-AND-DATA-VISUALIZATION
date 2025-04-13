@@ -67,7 +67,7 @@ columns=['Source', 'Count'])
 
 app.layout = dbc.Container([
 html.Div([  
-    html.H1("???? News Insight Dashboard", className="display-4 fw-bold text-center mb-2", style={'fontFamily': 'Trebuchet MS', 'textTransform': 'uppercase'}),  # Creating header
+    html.H1("📰 News Insight Dashboard", className="display-4 fw-bold text-center mb-2", style={'fontFamily': 'Trebuchet MS', 'textTransform': 'uppercase'}),  # Creating header
     html.P("Explore the latest headlines on Technology, AI, Weather, Cybersecurity, and more.",
            className="lead text-center mb-4", style={'color': '#AAAAAA'})  
 ]),
